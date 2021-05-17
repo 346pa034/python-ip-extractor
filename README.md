@@ -1,5 +1,5 @@
-# IP address extractor
-Python command-line script that extracts (optionally, unique) IPv4 addresses from a specified file. Useful for digital forensics while iterating through log files.
+# A lightweight, easy-to-use, (log file) IP address extractor
+Python command-line script that extracts (optionally, unique) IPv4 addresses from a specified (log) file. Useful for digital forensics while iterating through log files.
 
 # Installation
 Just download/clone this repo or the `main.py` file.
