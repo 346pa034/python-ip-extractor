@@ -2,16 +2,16 @@
 Python command-line script that extracts (optionally, unique) IPv4 addresses from a specified (log) file. Useful for digital forensics while iterating through log files.
 
 # Installation
-Just download/clone this repo or the `main.py` file.
+Just download/clone this repo.
 
 # Usage
 ```
-python3 main.py -i /file/with/ips -o /output/file -u True|False
+python3 extract-ips.py -i /file/with/ips -o /output/file -u True|False
 ```
 
 Reads the provided input file (`-i`), searches for IPv4 addresses and writes the found addresses to the provided output file (`-o`). Specify `-u` with `True` or `False` to check for unique addresses or not.
 
 ## Further help
 ```
-python3 main.py -h
+python3 extract-ips.py -h
 ```
